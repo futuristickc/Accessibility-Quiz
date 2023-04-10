@@ -42,7 +42,7 @@
                 <div class="question-block">
                     <p>1</p>
                 <fieldset class="question">
-                    <legend></legend>
+                    <legend>The legend element represents a caption for the content of its parent fieldset element</legend>
                     <ul class="answers-list">
                         <li>
                             <legend for="q1-a1">
@@ -61,7 +61,7 @@
                 <div class="question-block">
                     <p>2</p>
                 <fieldset class="question">
-                    <legend></legend>
+                    <legend>A label element nesting an input element is required to have a for attribute with the same value as the input's id</legend>
                     <ul class="answers-list">
                         <li>
                             <legend for="q2-a1">
@@ -79,7 +79,23 @@
             </section>
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-questions">CSS QUESTIONS</h2>
+                <div class="formrow">
+                    <div class="question-block"></div>
+                    <label for="dropdown"   >Are you a frontend developer?</label>
+                    <div class="answer">
+                        <select required id="dropdown" name="dropdown">
+                            <option value="">Select an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="question-block"></div>
+                    <label>Do you have any questions:</label>
+                    <div class="answer"></div>
+                    <textarea rows="5" cols="20" placeholder="e.g. What is the hardest language to learn..."></textarea>
+                </div>
             </section>
+            <input type="submit" value="Send">
         </form>
     </main>
 </body>
