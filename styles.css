@@ -99,3 +99,98 @@ nav li {
     margin-bottom: 10px;
     margin-right: auto;
   }
+
+  .info {
+    padding-top: 1px;
+    padding-right: 0;
+    padding-left: 1px;
+    padding-bottom: 0;
+  }
+
+  .formrow {
+    margin-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  
+  input {
+    font-size: 16px;
+  }
+
+  .info > input {
+    width: 50%;
+    text-align: left;
+  }
+
+  .info > label {
+    width: 10%;
+    min-width: 55px;
+  }
+
+  .info > input, .info > label {
+    display: inline-block;
+  }
+  
+  label {
+    text-align: right;
+  }
+
+  .question-block {
+    text-align: left;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 5px;
+  }
+
+  p {
+    margin-top: 5px;
+  padding-left: 15px;
+  font-size: 20px;
+  }
+
+  .question {
+    border: none;
+    padding-bottom: 0
+  }
+
+  .answers-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  button {
+    display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 15px;
+  font-size: 23px;
+  background: #d0d0d5;
+  border: 3px solid #3b3b4f;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #2a2a40;
+  }
+
+  footer,
+footer a {
+  color: #dfdfe2;
+}
+
+address {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) { 
+    * {
+    scroll-behavior: smooth;
+  }
+  }
